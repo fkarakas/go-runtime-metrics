@@ -6,7 +6,7 @@ stop:
 
 restart: stop start
 
-run-tester:
+run:
 	go run -v .
 
 .PHONY: start stop restart run-tester
