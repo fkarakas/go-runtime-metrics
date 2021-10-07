@@ -3,3 +3,10 @@ start:
 
 stop:
 	docker-compose -p runtime_metrics down -v
+
+restart: stop start
+
+run-tester:
+	go run -v .
+
+.PHONY: start stop restart run-tester
