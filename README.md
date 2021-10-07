@@ -5,7 +5,7 @@ It is using influxdb and grafana, it based on the project github.com/tevjef/go-r
 
 # Quick run
 
-## 1- start docker-compose
+## 1- Start docker-compose
 
 Start metric stack:
 
@@ -13,7 +13,7 @@ Start metric stack:
 make start
 ```
 
-## 2- insert metrics code
+## 2- Insert metrics Go code
 
 ```go
 import (
@@ -26,12 +26,14 @@ func main() {
 	if err != nil {
 	   // handle error
 	}
+	
+	...
 }
 ```
 
-## 3- access dashboard 'Go runtime'
+## 3- Access dashboard 'Go runtime'
 
-wait for metrics and go to the dashboard Go runtime. If not selected, choose the right `measurement` in the dashboard top drop down list.
+Wait for metrics collect and go to the dashboard Go runtime. If not selected, choose the right `measurement` in the dashboard top drop down list.
 
 http://localhost:3000/d/1/go-runtime?orgId=1&from=now-15m&to=now&refresh=5s
 
@@ -39,7 +41,7 @@ http://localhost:3000/d/1/go-runtime?orgId=1&from=now-15m&to=now&refresh=5s
 
 [Download Dashboard](https://grafana.net/dashboards/3242)
 
-## 4- stop docker-compose
+## 4- Stop docker-compose
 
 When done, stop the metric stack:
 ```
