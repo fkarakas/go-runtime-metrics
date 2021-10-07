@@ -33,7 +33,7 @@ func main() {
 
 ## 3- Access dashboard 'Go runtime'
 
-Wait for metrics collect and go to the dashboard Go runtime. If not selected, choose the right `measurement` in the dashboard top drop down list.
+Wait for metrics collection and go to the dashboard Go runtime. If not selected, choose the right `measurement` in the dashboard top drop down list.
 
 http://localhost:3000/d/1/go-runtime?orgId=1&from=now-15m&to=now&refresh=5s
 
