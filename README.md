@@ -1,7 +1,7 @@
 # Goal
 
 This repository provides a docker-compose for Go runtime metrics stack on your local computer.
-It is using influxdb and grafana, it based on the project github.com/tevjef/go-runtime-metrics
+It is using influxdb and grafana, it based on the project http://github.com/tevjef/go-runtime-metrics
 
 # Quick run
 
