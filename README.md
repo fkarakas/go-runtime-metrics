@@ -15,7 +15,7 @@ make start
 
 ## 2- insert metrics code
 
-```
+```go
 import (
 	metrics "github.com/tevjef/go-runtime-metrics"
 )
