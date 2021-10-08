@@ -30,6 +30,7 @@ func main() {
 	...
 }
 ```
+you may need to add this to your go.mod: `replace gonum.org/v1/gonum => github.com/gonum/gonum v0.9.3`
 
 ## 3- Access dashboard 'Go runtime'
 
