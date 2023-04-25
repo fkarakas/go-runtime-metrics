@@ -1,7 +1,7 @@
 version: '3'
 services:
   influxdb:
-    image: influxdb:latest
+    image: influxdb:1.8
     # environment: 
     #   INFLUXDB_REPORTING_DISABLED: "true"
     #   INFLUXDB_DB: "metrics"
